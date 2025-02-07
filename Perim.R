@@ -13,6 +13,8 @@ LongitudCircunferencia <- function(R) {
 
 #Perímetro Rectángulo
 
-PerimetroRectangulo <- function(base, altura) {
-  return(2 * (base + altura))
+
+PerimetroRectangulo <- function(L, l) {
+  return( (L+l)*2 )
 }
+
