@@ -38,3 +38,13 @@ altura <-6
 AreaRectangulo <- base*altura
 ```
 
+# Función para calcular el área de un trapecio
+```{r}
+AreaTrapecio <- function(b, B, H) {
+  return(0.5 * (b + B) * H)
+}
+
+```
+
+
+
